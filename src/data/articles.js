@@ -9,8 +9,8 @@ function article_1() {
 		keywords: [
 			"The Benefits of Cloud Computing",
 			"name",
-			"inser name",
-			"inser name",
+			"insert name",
+			"insert name",
 		],
 		style: `
 				.article-content {
@@ -49,8 +49,8 @@ function article_2() {
 		keywords: [
 			"Artificial Intelligence in Healthcare",
 			"name",
-			"inser name",
-			"inser name",
+			"insert name",
+			"insert name",
 		],
 		body: (
 			<React.Fragment>
