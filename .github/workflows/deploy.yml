@@ -34,7 +34,10 @@ jobs:
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_PRIVATE_KEY }}
           script: |
+            ls -al
             cd /var/www/html
+            ls -al
             rm -rf *
             cp -R /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build/* .
+            cp -R build/* .
             sudo service nginx restart
