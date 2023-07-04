@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "Hey Kyle here I live in Metro Manila, my favorite coffee shop is found in San Juan City!",
 		description:
-			"I have a knack for learning!",
+			"I have a knack for learning! You can also find me obsessing over perfumes!",
 	},
 
 	articles: {
