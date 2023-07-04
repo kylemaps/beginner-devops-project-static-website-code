@@ -22,7 +22,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I'm Kyle Mapue I live in Metro Manila, where I design the future.",
+		title: "Hey Kyle here I live in Metro Manila, my favorite coffee shop is found in San Juan City!",
 		description:
 			"I have a knack for learning!",
 	},
