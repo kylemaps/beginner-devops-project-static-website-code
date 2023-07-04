@@ -25,7 +25,6 @@ jobs:
           ls -al
           ls -al /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code
           ls -al /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build
-          shell: /usr/bin/bash -e {0}
     
       - name: Deploy to VPS
         uses: appleboy/ssh-action@master
