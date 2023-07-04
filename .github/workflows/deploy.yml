@@ -22,8 +22,9 @@ jobs:
       - name: Debug build output
         run: |
           echo "Current working directory: $(pwd)"
+          ls -al
+          ls -al /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code
           ls -al /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build
-         # ls -al /github/workspace
          # ls -al /github/workspace/build
 
       - name: Deploy to VPS
