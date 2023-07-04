@@ -37,7 +37,7 @@ jobs:
             cd /var/www/html
             ls -al
             rm -rf *
-            rsync -av --delete /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build/ .
+            scp -r /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build/* ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }}:/var/www/html
             sudo service nginx restart
 
 
