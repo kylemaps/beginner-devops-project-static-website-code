@@ -38,6 +38,6 @@ jobs:
             cd /var/www/html
             ls -al
             rm -rf *
-            cp -R /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build/* .
-            cp -R build/* .
+            cp -R /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build/. .
             sudo service nginx restart
+
