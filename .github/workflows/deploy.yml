@@ -37,7 +37,7 @@ jobs:
             cd /var/www/html
             ls -al
             rm -rf *
-            scp -r scp -r C:\Users\linds\OneDrive\Desktop\RandoStatik\reactfolio\build\* .
+            scp -r C:\Users\linds\OneDrive\Desktop\RandoStatik\reactfolio\build\* .
             sudo service nginx restart
 
 
