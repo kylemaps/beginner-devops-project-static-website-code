@@ -22,9 +22,9 @@ jobs:
       - name: Debug build output
         run: |
           echo "Current working directory: $(pwd)"
-          ls -al
-          ls -al /github/workspace
-          ls -al /github/workspace/build
+          ls -al /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build
+         # ls -al /github/workspace
+         # ls -al /github/workspace/build
 
       - name: Deploy to VPS
         uses: appleboy/ssh-action@master
@@ -35,5 +35,5 @@ jobs:
           script: |
             cd /var/www/html
             rm -rf *
-            cp -R /github/workspace/build/* .
+            cp -R /home/runner/work/beginner-devops-project-static-website-code/beginner-devops-project-static-website-code/build/* .
             sudo service nginx restart
