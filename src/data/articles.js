@@ -42,7 +42,7 @@ function article_1() {
 function article_2() {
 	return {
 		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		title: "Artificial Intelligence in Healthcare.",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
 		style: ``,
