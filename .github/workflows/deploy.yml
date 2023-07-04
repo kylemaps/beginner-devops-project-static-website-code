@@ -19,10 +19,12 @@ jobs:
           npm ci
           npm run build
 
-      - name: Verify build output
+      - name: Debug build output
         run: |
+          echo "Current working directory: $(pwd)"
+          ls -al
+          ls -al /github/workspace
           ls -al /github/workspace/build
-          # Add any additional commands to verify the build output here
 
       - name: Deploy to VPS
         uses: appleboy/ssh-action@master
